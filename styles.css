@@ -5,12 +5,13 @@
 }
 
 body{
-    background-color: #f2f2f2;
+    background-color: #242424;
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+	flex-direction: column;
 }
 
 .perfis{
@@ -51,4 +52,14 @@ body{
 	100% {
 		transform: scale(1);
 	}
+}
+
+.my-style{
+	background-color: #535353;
+}
+
+.titulo{
+	text-align: center;
+	color: white;
+	margin-bottom: 10rem;
 }
