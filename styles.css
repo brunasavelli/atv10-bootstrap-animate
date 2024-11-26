@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #242424;
+    background-color: #c2c2c2;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@ body{
 	}
 }
 
-.pulse-title:hover{
+.animate__bounceIn:hover{
     animation: myAnim 2s ease 0s 1 normal forwards;
 }
 @keyframes myAnim {
@@ -54,12 +54,19 @@ body{
 	}
 }
 
+.animate__bounceIn:hover{
+	display: inline-block;
+	animation: animate__bounceIn;
+    animation-duration: 5s;
+}
+
 .my-style{
 	background-color: #535353;
+	color: white;
 }
 
 .titulo{
 	text-align: center;
-	color: white;
+	color: rgb(68, 68, 68);
 	margin-bottom: 10rem;
 }
